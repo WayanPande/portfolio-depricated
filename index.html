@@ -175,7 +175,38 @@
             </div>
         </section> -->
     <!-- Akhir gallery -->
-
+    <section id="my-char">
+        <div class="container">
+            <div class="row text-center mb-3">
+                <div class="col">
+                    <h2>My Character</h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6 col-lg-4 mb-3">
+                    <div class="char-box">
+                        <h4 class="char-name">Orang satu</h4>
+                        <img src="img/Group 10.png" class="char-img" alt="">
+                        <a href="#" class="btn btn-light char-detail-button">Show Detail</a>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 mb-3">
+                    <div class="char-box">
+                        <h4 class="char-name">Orang dua</h4>
+                        <img src="img/Group 11.png" class="char-img" alt="">
+                        <a href="#" class="btn btn-light char-detail-button">Show Detail</a>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 mb-3">
+                    <div class="char-box">
+                        <h4 class="char-name">Orang tiga</h4>
+                        <img src="img/Group 12.png" class="char-img" alt="">
+                        <a href="#" class="btn btn-light char-detail-button">Show Detail</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
     <!-- Contact -->
     <section id="contact">
         <div class="container">
@@ -276,6 +307,15 @@
     });
   </script>
 
+<script type="text/javascript" src="vanilla-tilt.min.js"></script>
+<script type="text/javascript">
+	VanillaTilt.init(document.querySelectorAll(".char-box"), {
+		max: 25,
+		speed: 400,
+        glare: true,
+	});
+
+</script>
 </body>
 
 </html>
